@@ -1,18 +1,16 @@
 Chatterbox client
 ==============
 
-This is a project I completed as a student at Hack Reactor. This project was worked on with a pair. During the project we built a chat client consuming some parse API. The final client app has been refactored with various libraries/frameworks, from jQuery, to Backbone and ES6.
+This is a project I completed as a student at Hack Reactor. This project was worked on with a pair. During the project we built a chat client consuming some parse API. The final client app has been built with various jQuery library.
 
 ## Structure:
 
 The repository consist of
 
 - jQuery app
-- backbone app
-- backbone ES6 app
 - test Specs files.
 
-#### Chatterbox app - Jquery version / Backbone version / BackboneES6 version
+#### Chatterbox app - Jquery version
 
 The app allows the user to chose rooms and fetch/post messages from and to a parse based API backend.
 
@@ -25,9 +23,7 @@ The project rely on bower for managing external libraries and dependencies, so b
 to run it, simply open `./client/index<type>.html` with your browser.
 In particular:
 
-- `./client/indexJQuery.html`
-- `./client/indexBacknone.html`
-- `./client/indexBacknoneES6.html`
+- `./client/index.html`
 
 Make sure to have a valid config.js inside the env folder.
 
